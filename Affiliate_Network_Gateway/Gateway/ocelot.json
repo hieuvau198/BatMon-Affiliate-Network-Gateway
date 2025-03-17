@@ -1,0 +1,103 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/AdvertiserBalance/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "affiliate-augjhjgtdrfzgeaf.southeastasia-01.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/advertiserbalance/{everything}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Advertisers/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "affiliate-augjhjgtdrfzgeaf.southeastasia-01.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/advertisers/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/AdvertiserUrl/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "affiliate-augjhjgtdrfzgeaf.southeastasia-01.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/advertiserurl/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Campaign/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "affiliate-augjhjgtdrfzgeaf.southeastasia-01.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/campaign/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/CampaignPolicy/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "affiliate-augjhjgtdrfzgeaf.southeastasia-01.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/campaignpolicy/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Currency/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "affiliate-augjhjgtdrfzgeaf.southeastasia-01.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/currency/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Publisher/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "affiliate-augjhjgtdrfzgeaf.southeastasia-01.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/publisher/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/TrafficSource/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "affiliate-augjhjgtdrfzgeaf.southeastasia-01.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/trafficsource/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    }
+  ],
+  //"GlobalConfiguration": {
+  //  "BaseUrl": "https://localhost:7061/"
+  //}
+}
